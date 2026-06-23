@@ -31,6 +31,10 @@ Project ini menyediakan pengujian otomatis untuk memenuhi kriteria submission fi
 
 - Reducer test untuk state thread dan detail thread.
 - Thunk test per modul state dengan mock Dicoding Forum API.
+  - `src/states/authUser/action.test.js`
+  - `src/states/shared/action.test.js`
+  - `src/states/threads/action.test.js`
+  - `src/states/threadDetail/action.test.js`
 - React component test menggunakan React Testing Library.
 - End-to-end login flow menggunakan Cypress.
 - Storybook stories untuk komponen forum utama.
@@ -121,7 +125,8 @@ Folder `screenshot` berisi bukti yang diminta pada submission:
 
 - `1_ci_check_error.png`
 - `2_ci_check_pass.png`
-- `3_branch_protection.png`
+- `3_branch_protection.png`: bukti branch protection pada Pull Request ketika required check belum selesai.
+- `4_pr_checks_pass.png`: bukti tambahan Pull Request setelah required checks berhasil.
 
 Saat membuat ZIP submission, jangan sertakan folder berikut:
 
