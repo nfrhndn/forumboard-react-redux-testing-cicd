@@ -1,5 +1,12 @@
 /* global cy, describe, it */
 
+/**
+ * Skenario pengujian:
+ * - Login flow
+ *   - should login with mocked Dicoding Forum API responses
+ *   - should show discussion feed after authentication succeeds
+ */
+
 describe('Login flow', () => {
   it('should login and show discussion feed', () => {
     cy.intercept('GET', '**/users/me', (req) => {

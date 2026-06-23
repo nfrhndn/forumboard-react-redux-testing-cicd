@@ -1,3 +1,12 @@
+/**
+ * Skenario pengujian:
+ * - threadsReducer
+ *   - should return initial state when action is unknown
+ *   - should receive, add, and restore thread data
+ *   - should update comment count
+ *   - should update upvote, downvote, and neutralize vote state
+ */
+
 import { describe, expect, it } from 'vitest'
 import threadsReducer from './reducer'
 import {

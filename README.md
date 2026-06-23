@@ -30,7 +30,7 @@ https://github.com/nfrhndn/forumboard-react-redux-testing-cicd
 Project ini menyediakan pengujian otomatis untuk memenuhi kriteria submission final:
 
 - Reducer test untuk state thread dan detail thread.
-- Thunk test dengan mock Dicoding Forum API.
+- Thunk test per modul state dengan mock Dicoding Forum API.
 - React component test menggunakan React Testing Library.
 - End-to-end login flow menggunakan Cypress.
 - Storybook stories untuk komponen forum utama.

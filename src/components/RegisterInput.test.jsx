@@ -1,3 +1,9 @@
+/**
+ * Skenario pengujian:
+ * - RegisterInput component
+ *   - should call register with name, email, and password from user input
+ */
+
 import React from 'react'
 import { describe, expect, it, vi } from 'vitest'
 import { render, screen } from '@testing-library/react'

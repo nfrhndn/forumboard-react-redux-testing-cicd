@@ -1,3 +1,11 @@
+/**
+ * Skenario pengujian:
+ * - ThreadItem component
+ *   - should render thread information and comment count
+ *   - should call upvote when upvote button is clicked
+ *   - should call neutralizeVote when authenticated user already upvoted
+ */
+
 import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { describe, expect, it, vi } from 'vitest'

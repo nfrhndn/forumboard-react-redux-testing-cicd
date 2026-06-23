@@ -1,3 +1,12 @@
+/**
+ * Skenario pengujian:
+ * - threadDetailReducer
+ *   - should receive, clear, and restore thread detail
+ *   - should update thread detail vote state
+ *   - should add comment
+ *   - should update and neutralize comment vote state
+ */
+
 import { describe, expect, it } from 'vitest'
 import threadDetailReducer from './reducer'
 import {
