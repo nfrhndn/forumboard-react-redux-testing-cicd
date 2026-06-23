@@ -114,6 +114,12 @@ Project ini disiapkan untuk submission **Menerapkan Automation Testing dan CI/CD
 
 Untuk submission final, deploy project melalui Vercel dari repository GitHub dan lampirkan URL deployment pada catatan submission.
 
+URL deployment:
+
+```text
+https://forumboard-react-redux-testing-cicd.vercel.app/
+```
+
 ## Catatan Submission
 
 Folder `node_modules` dan `dist` tidak perlu disertakan saat membuat berkas ZIP submission. Dependency dapat dipasang kembali menggunakan `npm install`.
