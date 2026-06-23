@@ -19,11 +19,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Verify Cypress binary
+        run: node scripts/run-cypress.cjs verify
 
       - name: Run ESLint
         run: npm run lint
